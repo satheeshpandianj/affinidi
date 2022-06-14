@@ -1,0 +1,45 @@
+{
+  "name": "k6-perf-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/faker": "^5.1.5",
+    "@types/k6": "^0.29.1",
+    "@types/node": "^14.14.20",
+    "@typescript-eslint/eslint-plugin": "^3.9.1",
+    "@typescript-eslint/parser": "^3.9.1",
+    "azure-cli": "^0.6.14",
+    "babel-loader": "^8.2.3",
+    "copy-webpack-plugin": "6.4.1",
+    "core-js": "^3.20.1",
+    "del-cli": "^4.0.1",
+    "eslint": "^7.7.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "faker": "^5.1.0",
+    "glob": "^7.1.6",
+    "k6": "^0.0.0",
+    "prettier": "2.3.0",
+    "typescript": "^3.9.7",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "bin":{
+    "k6test":"./runTest.sh",
+    "folder":"./createFolders.sh"
+  },
+  "scripts": {
+    "setup":"./createFolders.ps1",
+    "startTest":"./runTest.ps1"
+  }
+}

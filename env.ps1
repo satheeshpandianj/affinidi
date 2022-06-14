@@ -1,0 +1,11 @@
+$env:CLIENTID = "c26c0806-6ee2-4370-91e5-fd7ce2d27867"
+$env:SUBSCRIPTIONID = "303c2bf4-25f2-45b7-ae4f-0571b680c004"
+$env:CLIENTSECRET = "2.97Q~0PHtannxcD_f.jH7qRkzxChgUX_lo2A"
+$env:TENANTID = "81fa766e-a349-4867-8bf4-ab35e250a08f"
+$env:RESOURCEGROUP = "PerfTesting" # Enter the name based on your product.
+$env:LOCATION = "norwayeast" # Enter the location based on your requirement.
+$env:STORAGEACCOUNTNAME = "perfk6testazurestorage" # Enter the name based on your product. It should be unique across globe
+$env:FILESHARE = "perfk6testazurefileshare" # Enter the name based on your product. It should be unique across globe
+$env:CONTAINERNAME = "perftestgroupcontainer" # Enter the name based on your product. It should be unique across globe
+$env:VUS = "2" # Enter the number of users to simulate the load
+$env:TESTDURATION = "60" # Enter the test duration is seconds
